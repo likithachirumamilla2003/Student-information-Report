@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Info</title>
+</head>
+<body>
+    <form name="Student" action="Form submitted.html">
+    <table align="center" bgcolor="pink">
+    <h1> Student Information Report</h1>
+    <tr><td>Student Id</td><td><input type="number" ></td></tr><br>
+    <tr><td>Student name</td><td><input type="text" ></td></tr><br>
+    <tr><td>Gender</td><td><input type="radio" > Male <br><input type="radio" > Female</td></tr>
+     <tr><td>Address</td> <td><textarea name="adress" rows="5" cols="20"></textarea></td></tr>
+    <tr><td>DOB</td><td><input type="datetime-local" ></td></tr>   
+    <tr><td>section</td><td>      <select name="Course">
+        <option value="1">CSE</option>
+        <option value="2">AIML</option>
+        <option value="3">Ds</option>
+        <option value="4">ECE</option>
+        </select><br></td></tr> 
+    <tr><td>skills</td><td><input type="checkbox" name="skills">C<br>
+        <input type="checkbox" name="lang">Java<br>
+        <input type="checkbox" name="lang">Python
+    <td></td></tr>    
+    <tr><td>Mobile num</td><td><input type="Number" ></td></tr>
+    <tr><td>Email</td><td><input type="email" ></td></tr>
+    <tr><td>url</td><td><input type="url" ></td></tr>
+    <tr><td>salary</td><td><input type="Number" ></td></tr>
+ 
+    <tr><td>Marks memo</td><td><input type="File" ></td></tr>
+    <tr><td><input type="submit"></td><td><input type="reset" ></td></tr>
+</form>
+</table>
+</body>
+</html>
